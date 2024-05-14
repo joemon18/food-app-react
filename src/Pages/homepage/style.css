@@ -1,0 +1,36 @@
+.favorites-wrapper {
+    flex-direction: column;
+    display: flex;
+}
+
+.favorites {
+    display: flex;
+    gap: 25px;
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+.no-fav {
+    color: white;
+    font-size: 45px;
+}
+
+.items {
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.loading, .no-items {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.favorites-title {
+    color: #fa6400;
+    font-weight:700;
+}
